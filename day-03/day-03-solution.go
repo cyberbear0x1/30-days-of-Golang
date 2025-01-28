@@ -7,7 +7,10 @@ package main
 import "fmt"
 
 func main() {
-	Odd_or_Even(4)
+	var user_input int
+	fmt.Println("Please enter any number of your choosing: ")
+	fmt.Scanln((&user_input)) //Decided to make it more interesting
+	Odd_or_Even(user_input)   // call my function
 }
 
 // Create a function to check if a given number is even or odd.
